@@ -1,11 +1,24 @@
-body {
-  background-color: #fffff;
-  font-size: 130%;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-h1 {
-  color: black;
+.parent1{
+  padding: 20px;
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+  color: white;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
-h2 {
-  color: skyblue;
 }
-
+.child1{
+  padding: 20px;
+  background-color: #CFA5A5;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
